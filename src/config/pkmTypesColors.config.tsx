@@ -1,19 +1,19 @@
-import { PokemonType } from '../interfaces'
-import { PiSnowflakeBold, PiSparkleFill, PiSpiralFill } from 'react-icons/pi'
-import { BiCircle, BiSolidBug } from 'react-icons/bi'
+import { PokemonType } from '../interfaces';
+import { PiSnowflakeBold, PiSparkleFill, PiSpiralFill } from 'react-icons/pi';
+import { BiCircle, BiSolidBug } from 'react-icons/bi';
 import {
   GiPunch,
   GiFluffyWing,
   GiStonePile,
   GiSeaDragon,
   GiMoon,
-} from 'react-icons/gi'
-import { MdBubbleChart, MdOutlineWaterDrop } from 'react-icons/md'
-import { HiMiniFire } from 'react-icons/hi2'
-import { TbGhost2Filled } from 'react-icons/tb'
-import { AiFillQuestionCircle } from 'react-icons/ai'
-import { FaBolt, FaLeaf, FaMountain } from 'react-icons/fa'
-import { BsCircleFill, BsFillNutFill } from 'react-icons/bs'
+} from 'react-icons/gi';
+import { MdBubbleChart, MdOutlineWaterDrop } from 'react-icons/md';
+import { HiMiniFire } from 'react-icons/hi2';
+import { TbGhost2Filled } from 'react-icons/tb';
+import { AiFillQuestionCircle } from 'react-icons/ai';
+import { FaBolt, FaLeaf, FaMountain } from 'react-icons/fa';
+import { BsCircleFill, BsFillNutFill } from 'react-icons/bs';
 
 export const colorsOfTypes: { [type in PokemonType]: string } = {
   none: '',
@@ -37,7 +37,7 @@ export const colorsOfTypes: { [type in PokemonType]: string } = {
   fairy: 'bg-gradient-to-tr from-pink-300 to-pink-100',
   unknown: 'bg-gradient-to-tr from-red-600 to-blue-200',
   shadow: 'bg-gradient-to-tr from-violet-600 via-neutral-950 to-violet-500',
-}
+};
 
 export const iconsOfTypes: { [type in PokemonType]: React.ReactNode } = {
   none: '',
@@ -61,4 +61,4 @@ export const iconsOfTypes: { [type in PokemonType]: React.ReactNode } = {
   fairy: <PiSparkleFill />,
   unknown: <AiFillQuestionCircle />,
   shadow: <BsCircleFill />,
-}
+};
