@@ -1,7 +1,7 @@
-import { FC, PropsWithChildren } from 'react';
+import { FC, PropsWithChildren } from 'react'
 
 interface Props extends PropsWithChildren {
-  label: string;
+  label: string
 }
 const Tooltip: FC<Props> = ({ children, label }) => {
   return (
@@ -12,7 +12,7 @@ const Tooltip: FC<Props> = ({ children, label }) => {
         {label}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Tooltip;
+export default Tooltip
