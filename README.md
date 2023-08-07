@@ -1,27 +1,24 @@
-# React + TypeScript + Vite
+# 3D card Efect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+3D effect created only with CSS classed provided for Tailwind.
 
-Currently, two official plugins are available:
+![Effect example](https://github.com/MartinMaffei95/pokecards/blob/master/docs/gif_effect.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live example:
 
-## Expanding the ESLint configuration
+See the live result on this page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+https://pokecards-effect.vercel.app/
 
-- Configure the top-level `parserOptions` property like this:
+## Based on:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Based on the short of Midudev
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[MiduDev: Short link](https://www.youtube.com/shorts/D1p2Sl6lxX4)  
+[MiduDev: YouTube Channel](https://www.youtube.com/shorts/D1p2Sl6lxX4)
+
+# Builded with
+
+[TailwindCss](https://tailwindcss.com/)  
+[tailwind-animated](https://www.tailwindcss-animated.com/)  
+[tailwindcss-perspective](https://github.com/Kamona-WD/tailwindcss-perspective)
