@@ -1,4 +1,4 @@
-# 3D card Efect
+# 3D card Effect
 
 3D effect created only with CSS classed provided for Tailwind.
 
