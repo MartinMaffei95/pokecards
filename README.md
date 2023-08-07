@@ -21,4 +21,5 @@ Based on the short of Midudev
 
 [TailwindCss](https://tailwindcss.com/)  
 [tailwind-animated](https://www.tailwindcss-animated.com/)  
-[tailwindcss-perspective](https://github.com/Kamona-WD/tailwindcss-perspective)
+[tailwindcss-perspective](https://github.com/Kamona-WD/tailwindcss-perspective)  
+[react-icons](https://react-icons.github.io/react-icons/)
